@@ -1,0 +1,296 @@
+# enter 1 for milimeter 《》centimeter 
+# enter 2 for milimeter 《》inches 
+# enter 3 for milimeter 《》feet
+# enter 4 for milimeter 《》meter
+# enter 5 for milimeter 《》kilometer 
+# enter 6 for milimeter 《》miles 
+# enter 7 for centimeter 《》inches 
+# enter 8 for centimeter 《》feet
+# enter 9 for centimeter 《》meter
+# enter 10 for centimeter 《》kilometer 
+# enter 11 for centimeter 《》miles
+# enter 12 for inch 《》feet
+# enter 13 for inch 《》meter 
+# enter 14 for inch 《》kilometer 
+# enter 15 for inch 《》miles 
+# enter 16 for feet 《》meter 
+# enter 17 for feet 《》kilometer 
+# enter 18 for feet 《》miles
+# enter 19 for meter 《》kilometer 
+# enter 20 for meter 《》miles
+# enter 21 for kilometer 《》miles
+
+
+# 1st read the comments and then play the code
+# this code creates by Mahfazzalin Shawon Reza 
+print("length conversion")
+print(" by Mahfazzalin Shawon Reza")
+choose = int(input("Enter number 1 to 36"))
+if choose > 21 :
+    print("you enter bigger than 21")
+
+if choose == 1 : 
+    milicenti = int(input("1 for milimeter, 2 for centimeter"))
+    if milicenti == 1 :
+        mili = float(input(" Enter your milimeter number"))
+        centi = mili / 10
+        print(" your result is ",centi , "centimeters")
+    else:
+         centi = float(input("Enter your centimeter number")) 
+         mili =centi * 10 
+         print(" your result is ", mili , " milimeter " )
+         
+elif choose == 2 :
+    miliinch = int(input("1 for milimeter, 2 for inch"))
+    if miliinch == 1 :
+        mili = float(input("Enter your milimeternumber"))
+        inch = mili / 25.4
+        print("your result is", inch , "inch")
+    else :
+         inch = float(input("Enter your inches"))  
+         mili = inch * 25.4
+         print("your result is " , mili, "milimeter" )
+         
+    
+elif choose == 3 :
+    milifeet = int(input("1 for milimeter, 2 for feet"))
+    if milifeet == 1 :
+        mili = float(input("Enter your milimeternumber"))
+        feet = mili / 304.8
+        print("your result is", feet , "feet")
+    else :
+         feet = float(input("Enter your numberinfeet"))  
+         mili = feet * 304.8
+         print("your result is " , mili, "milimeter" )
+         
+    
+
+elif choose == 4 :
+    milimeters = int(input("1 for milimeter, 2 for meter"))
+    if milimeters == 1 :
+        mili = float(input("Enter your milimeter number"))
+        meter = mili / 1000
+        print("your result is", meter , "meter")
+    else :
+         meter = float(input("Enter your meter number"))  
+         mili = meter * 1000
+         print("your result is " , mili, "milimeter" )
+         
+    
+
+
+elif choose == 5 :
+    milikilo = int(input("1 for milimeter, 2 for kilometer"))
+    if milikilo == 1 :
+        mili = float(input("Enter your milimeternumber"))
+        kilo = mili / 1000000
+        print("your result is", kilo , "kilometer")
+    else :
+         kilo = float(input("Enter your kilometer number"))  
+         mili = kilo * 1000000
+         print("your result is " , mili, "milimeter" )
+         
+
+
+elif choose == 6 :
+    milimiles = int(input("1 for milimeter, 2 for miles"))
+    if milimiles == 1 :
+        mili = float(input("Enter your milimeter number"))
+        mile = mili / 1609344
+        print("your result is", mile , "miles")
+    else :
+         mile = float(input("Enter your miles"))  
+         mili = mile * 1609344
+         print("your result is " , mili, "milimeter" )
+         
+         
+elif choose == 7 :
+    centiinch = int(input("1 for centimeter, 2 for inches"))
+    if centiinch == 1 :
+        centi = float(input("Enter your centimeter number"))
+        inch = centi / 2.54
+        print("your result is", inch , "inches")
+    else :
+         inch = float(input("Enter your inches"))  
+         centi = inch * 2.54
+         print("your result is " , centi, "centimeter" )
+              
+ 
+elif choose == 8 :
+    centifeet = int(input("1 for centimeter, 2 for feet"))
+    if centifeet == 1 :
+        centi = float(input("Enter your centimeter number"))
+        feet = centi / 30.48
+        print("your result is", feet , "feet")
+    else :
+         feet = float(input("Enter your feets"))  
+         centi = feet * 30.48
+         print("your result is " , centi, "centimeter" )
+              
+     
+ 
+elif choose == 9 :
+    centimeters = int(input("1 for centimeter, 2 for meters"))
+    if centimeters == 1 :
+        centi = float(input("Enter your centimeter number"))
+        meter = centi / 100
+        print("your result is", meter , "meters")
+    else :
+         meter = float(input("Enter your meters"))  
+         centi = meter * 100
+         print("your result is " , centi, "centimeter" )
+              
+ 
+elif choose == 10 :
+    centikilo = int(input("1 for centimeter, 2 for kilometers"))
+    if centikilo == 1 :
+        centi = float(input("Enter your centimeter number"))
+        kilo = centi / 100000
+        print("your result is", kilo , "kilometers")
+    else :
+         kilo = float(input("Enter your kilometers"))  
+         centi = kilo * 100000
+         print("your result is " , centi, "centimeter" )
+              
+ 
+ 
+elif choose == 11 :
+    centimile = int(input("1 for centimeter, 2 for miles"))
+    if centimile == 1 :
+        centi = float(input("Enter your centimeter number"))
+        mile = centi / 160934.4
+        print("your result is", mile , "miles")
+    else :
+         mile = float(input("Enter your miles"))  
+         centi = inch * 160934.4
+         print("your result is " , centi, "centimeter" )
+              
+elif choose == 12 :
+    inchfeet = int(input("1 for inches, 2 for feets"))
+    if inchfeet == 1 :
+        inch = float(input("Enter your inches number"))
+        feet = inch / 12
+        print("your result is", feet , "feets")
+    else :
+         feet = float(input("Enter your feets"))  
+         inch = feet * 12 
+         print("your result is " , inch, "inches" )
+              
+ 
+elif choose == 13 :
+    inchmeter = int(input("1 for inch, 2 for meter"))
+    if inchmeter == 1 :
+        inch = float(input("Enter your inches"))
+        meter = inch / 39.3700787402
+        print("your result is", meter , "meters")
+    else :
+         meter = float(input("Enter your meters"))  
+         inch = meter * 39.3700787402
+         print("your result is " , inch, "inches" )
+              
+ 
+ 
+elif choose == 14 :
+    inchkilo = int(input("1 for inch, 2 for kilometers"))
+    if inchkilo == 1 :
+        inch = float(input("Enter your inches"))
+        kilo = inch / 39370.078740158
+        print("your result is", kilo , "kilometers")
+    else :
+         kilo = float(input("Enter your kilometers"))  
+         inch = kilo * 39370.078740158
+         print("your result is " , inch, "inches" )
+              
+ 
+elif choose == 15 :
+    inchmile = int(input("1 for inches, 2 for miles"))
+    if inchmile == 1 :
+        inch = float(input("Enter your inches"))
+        mile = inch / 63360
+        print("your result is", mile , "miles")
+    else :
+         mile = float(input("Enter your miles"))  
+         inch = mile * 63360
+         print("your result is " , inch, "inches" )
+              
+ 
+ 
+
+elif choose == 16 :
+    feetmeter = int(input("1 for feet, 2 for meters"))
+    if feetmeter == 1 :
+        feet = float(input("Enter your  number in feet"))
+        meter = feet / 3.280839895
+        print("your result is", meter , "meters")
+    else :
+         meter = float(input("Enter your meters"))  
+         feet = meter * 3.280839895
+         print("your result is " , feet, "feets" )
+              
+ 
+elif choose == 17 :
+    feetkilo = int(input("1 for feets, 2 for kilometers"))
+    if feetkilo == 1 :
+        feet = float(input("Enter your feets"))
+        kilo = feet / 3280.8398950131
+        print("your result is", kilo , "kilometers")
+    else :
+         kilo = float(input("Enter your kilometers"))  
+         feet = kilo * 3280.8398950131
+         print("your result is " , feet, "feets" )
+              
+ 
+
+
+
+elif choose == 18 :
+    feetmile = int(input("1 for feet, 2 for miles"))
+    if feetmile == 1 :
+        feet = float(input("Enter your feets"))
+        mile = feet / 5280
+        print("your result is", mile , "miles")
+    else :
+         mile = float(input("Enter your miles"))  
+         feet = mile * 5280
+         print("your result is " , feet, "feets" )
+              
+ 
+elif choose == 19 :
+    meterkilo = int(input("1 for meters, 2 for kilo"))
+    if meterkilo == 1 :
+        meter = float(input("Enter your   meters"))
+        kilo = meter / 1000
+        print("your result is", kilo , "kilometers")
+    else :
+         kilo = float(input("Enter your kilometers"))  
+         meter = kilo * 1000
+         print("your result is " , meter, "kilometers" )
+              
+ 
+
+
+elif choose == 20 :
+    metermile = int(input("1 for meter, 2 for miles"))
+    if metermile == 1 :
+        meter = float(input("Enter your meters  "))
+        mile = meter / 1609.344
+        print("your result is", mile , "miles")
+    else :
+         mile = float(input("Enter your miles"))  
+         meter = mile * 1609.344
+         print("your result is " , meter, "meter" )
+              
+ 
+elif choose == 21 :
+    kilomile = int(input("1 for kilometer, 2 for miles"))
+    if kilomile == 1 :
+        kilo = float(input("Enter your kilometer number"))
+        mile = kilo / 1.609344
+        print("your result is", mile , "miles")
+    else :
+         mile = float(input("Enter your miles"))  
+         kilo = mile * 1.609344
+         print("your result is " , kilo, "kilometer" )
+              
+ 
+ 
