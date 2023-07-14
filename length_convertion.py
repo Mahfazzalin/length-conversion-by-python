@@ -1,5 +1,5 @@
 # length-conversion-by-python
-Please see the comment before play the code. 
+#Please see the comment before play the code. 
 # enter 1 for milimeter 《》centimeter 
 # enter 2 for milimeter 《》inches 
 # enter 3 for milimeter 《》feet
@@ -25,10 +25,9 @@ Please see the comment before play the code.
 
 # 1st read the comments and then play the code
 # this code creates by Mahfazzalin Shawon Reza 
-```
 print("length conversion")
 print(" by Mahfazzalin Shawon Reza")
-choose = int(input("Enter number 1 to 36"))
+choose = int(input("Enter number 1 to 21"))
 if choose > 21 :
     print("you enter bigger than 21")
 
@@ -295,4 +294,5 @@ elif choose == 21 :
          kilo = mile * 1.609344
          print("your result is " , kilo, "kilometer" )
               
-```
+ 
+ 
